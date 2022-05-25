@@ -5,14 +5,14 @@
   >
     <div class="z-10 content">
       <p class="content-title--alt">
-        {{ $t('contact.headline') }}
+        {{ $t("contact.headline") }}
         <Link path="#contact" />
       </p>
       <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="px-6 mt-8 text-base text-white md:text-lg">
-          {{ $t('contact.description1') }}
+          {{ $t("contact.description1") }}
           <a class="hover:text-secondary-600" href="mailto:taskana@novatec-gmbh.de">taskana@novatec-gmbh.de</a>
-          {{ $t('contact.description2') }}
+          {{ $t("contact.description2") }}
         </div>
         <div class="flex justify-center py-4 mt-8">
           <div
@@ -21,13 +21,13 @@
             <div class="relative w-48 h-48 pt-2 mx-auto avatar sm:pt-0 sm:h-auto sm:w-64 sm:mx-0">
               <img
                 class="absolute object-cover w-full h-full rounded-full sm:rounded-none sm:rounded-l-md"
-                src="holger.jpeg"
+                src="joerg.jpeg"
                 alt=""
               />
             </div>
             <div class="p-4 my-auto text-center info sm:text-left">
-              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Holger Hagen</p>
-              <p class="text-gray-600">Head of Practice Area</p>
+              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Jörg Wissmeier</p>
+              <p class="text-gray-600">Managing Consultant</p>
               <p class="text-gray-600">Business Process Management</p>
               <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>
               <div class="text-gray-700">
@@ -45,8 +45,8 @@
                     d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                   ></path>
                 </svg>
-                <a class="select-all hover:text-secondary-600" href="mailto:holger.hagen@novatec-gmbh.de">
-                  holger.hagen@novatec-gmbh.de
+                <a class="select-all hover:text-secondary-600" href="mailto:joerg.wissmeier@novatec-gmbh.de">
+                  joerg.wissmeier@novatec-gmbh.de
                 </a>
               </div>
               <div class="text-gray-700">
@@ -79,8 +79,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component'
-import Link from '@/core/Link.vue'
+import { Options, Vue } from "vue-class-component"
+import Link from "@/core/Link.vue"
 
 @Options({
   components: { Link }

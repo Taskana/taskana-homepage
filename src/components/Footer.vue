@@ -19,19 +19,19 @@
           <h2 class="link-header">TASKANA</h2>
           <nav class="mb-10 list-none">
             <li>
-              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t('footer.taskana.link1') }}</a>
+              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t("footer.taskana.link1") }}</a>
             </li>
             <li>
               <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">
-                {{ $t('footer.taskana.link2') }}
+                {{ $t("footer.taskana.link2") }}
               </a>
             </li>
             <li>
-              <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t('footer.taskana.link3') }}</a>
+              <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t("footer.taskana.link3") }}</a>
             </li>
             <li>
               <a href="https://github.com/Taskana/taskana/discussions" target="_blank">
-                {{ $t('footer.taskana.link4') }}
+                {{ $t("footer.taskana.link4") }}
               </a>
             </li>
           </nav>
@@ -40,31 +40,31 @@
           <h2 class="link-header">NOVATEC</h2>
           <nav class="mb-10 list-none">
             <li>
-              <a href="https://www.novatec-gmbh.de/unternehmen/" target="_blank">{{ $t('footer.novatec.link1') }}</a>
+              <a href="https://www.novatec-gmbh.de/unternehmen/" target="_blank">{{ $t("footer.novatec.link1") }}</a>
             </li>
             <li>
-              <a href="https://www.novatec-gmbh.de/beratung/" target="_blank">{{ $t('footer.novatec.link2') }}</a>
+              <a href="https://www.novatec-gmbh.de/beratung/" target="_blank">{{ $t("footer.novatec.link2") }}</a>
             </li>
             <li>
               <a href="https://www.novatec-gmbh.de/beratung/business-process-management-services/" target="_blank">
-                {{ $t('footer.novatec.link3') }}
+                {{ $t("footer.novatec.link3") }}
               </a>
             </li>
             <li>
               <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">
-                {{ $t('footer.novatec.link4') }}
+                {{ $t("footer.novatec.link4") }}
               </a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="link-header">{{ $t('footer.projects.title') }}</h2>
+          <h2 class="link-header">{{ $t("footer.projects.title") }}</h2>
           <nav class="mb-10 list-none">
             <li>
-              <a href="https://inspectit.rocks/" target="_blank">{{ $t('footer.projects.link1') }}</a>
+              <a href="https://inspectit.rocks/" target="_blank">{{ $t("footer.projects.link1") }}</a>
             </li>
             <li>
-              <a href="https://openapm.io/" target="_blank">{{ $t('footer.projects.link2') }}</a>
+              <a href="https://openapm.io/" target="_blank">{{ $t("footer.projects.link2") }}</a>
             </li>
           </nav>
         </div>
@@ -76,10 +76,10 @@
           © 2021 Novatec GmbH
         </p>
         <p class="sm:my-0 dark:text-gray-400 sm:text-left mt-2 ml-4 text-sm font-medium text-center text-gray-600">
-          <a href="https://www.novatec-gmbh.de/impressum/">{{ $t('footer.imprint') }}</a>
+          <a href="https://www.novatec-gmbh.de/impressum/">{{ $t("footer.imprint") }}</a>
         </p>
         <p class="sm:my-0 dark:text-gray-400 sm:text-left my-2 ml-4 text-sm font-medium text-center text-gray-600">
-          <a @click="displayPrivacy()">{{ $t('footer.privacy') }}</a>
+          <a href="https://www.novatec-gmbh.de/datenschutz/">{{ $t("footer.privacy") }}</a>
         </p>
         <span class="sm:ml-auto sm:mt-0 sm:justify-start inline-flex justify-center mt-2 space-x-3">
           <a class="footer__facebook" href="https://www.facebook.com/novatec.holding">
@@ -163,9 +163,9 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component'
-import Logo from '@/core/Logo.vue'
-import Privacy from '@/components/Privacy.vue'
+import { Options, Vue } from "vue-class-component"
+import Logo from "@/core/Logo.vue"
+import Privacy from "@/components/Privacy.vue"
 @Options({
   components: { Logo, Privacy }
 })
